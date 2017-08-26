@@ -2,8 +2,9 @@
   "name": "pruebas1",
   "version": "1.0.0",
   "description": "",
-  "main": "nodemon index.js",
+  "main": "index.js",
   "scripts": {
+    "start":"nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,12 +17,12 @@
     "url": "https://github.com/grinconu/Prueba1/issues"
   },
   "homepage": "https://github.com/grinconu/Prueba1#readme",
-  "devDependencies": {
-    "nodemon": "^1.11.0"
-  },
   "dependencies": {
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
     "mongoose": "^4.11.8"
-  }
+},
+"devDependencies": {
+    "nodemon": "^1.11.0"
+}
 }
