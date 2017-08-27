@@ -17,4 +17,4 @@ mongoose.connect('mongodb://admin:pass1word@ds157873.mlab.com:57873/pruebas1',(e
                     console.log('ApiRest escuchando.');
                 })
             }
-})
+});
